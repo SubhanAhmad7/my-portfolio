@@ -8,16 +8,18 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/CSS/stylesheet.css">
 </head>
 
 <body>
   <!-- ----------Header Start----------- -->
-  <section id="header">
+  <section id="Header">
     <!-- ----------Nav Start----------- -->
     <nav class="navbar navbar-expand-lg px-3">
       <div class="container mb-5">
-        <a class="navbar-brand text-white" href="#"><img src="" width="90px" alt=""></a>
+        <a class="navbar-brand text-white" href="#Header"><img class="img-fluid"
+            src="./assets/IMG/logo.png" width="100px" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,8 +57,8 @@
         <div class="col-md-6">
           <div class="text justify-content-center text-md-start">
             <h6 class="text-warning">Hi Everyone<i class="ri-hand"></i></i></h6>
-            <h1 class="text-white">I Am Subhan <br> Web Developer</h1>
-            <p class="text-white justify-content-center">I Strive to build immersive and beautiful web designs <br>
+            <h1 class="text-white"data-aos="fade-up"data-aos-duration="2000">I Am Subhan <br> Web Developer</h1>
+            <p class="text-white justify-content-center"data-aos="fade-up"data-aos-duration="3000">I Strive to build immersive and beautiful web designs <br>
               through carefully crafted
               user-centric design.</p>
             <a href="#"><button class="btn btn-warning text-white rounded-pill p-3 mb-2">Here me!</button></a>
@@ -74,10 +76,10 @@
       </div>
     </div>
   </section>
-  <section id="services">
+  <section id="Services">
     <div class="container pb-5">
-      <h6 class="text-center text-white mb-2 pt-5">My services</h6>
-      <h1 class="text-center text-white m-2">My Expertise Area</h1>
+      <h6 class="text-center text-white mb-2 pt-5"data-aos="fade-up"data-aos-duration="2000">My services</h6>
+      <h1 class="text-center text-white m-2"data-aos="fade-up"data-aos-duration="3000">My Expertise Area</h1>
       <p class="text-center text-align-center text-white m-2 pb-5">Lorem ipsum dolor sit amet
         consectetur adipisicing elit. Odit esse, <br> voluptas maiores tenetur temporibus ipsum
         quam ab repudiandae neque et?</p>
@@ -145,7 +147,7 @@
       </div>
     </div>
   </section>
-  <section id="ABOUT">
+  <section id="About">
     <div class="container pt-5">
       <div class="row p-5">
         <div class="col-md-6">
@@ -155,7 +157,7 @@
         </div>
         <div class="col-md-6">
           <div class="text">
-            <h4 class="text-white mb-5">Let's Get In Touch With Me!</h4>
+            <h4 class="text-white mb-5"data-aos="fade-up"data-aos-duration="2000">Let's Get In Touch With Me!</h4>
             <p class="text-white mb-4">I currently live in Lodhran, Pakistan. And I enjoy playing football and other
               sports.
               I love creating, creative content and you also find my work here! <br><br><br>Apart for this, I love to
@@ -167,16 +169,16 @@
       </div>
     </div>
   </section>
-  <section id="footer">
+  <section id="Footer">
     <div class="container p-5">
       <div class="row">
         <div class="col-md-6">
-          <div class="text">
+          <div class="text"data-aos="fade-right"data-aos-duration="2000">
             <p class="pt-5 text-white">Do you have a Project im mind?</p>
             <h1 class="p-1 text-white">Let's Talk About the <br>Next Big Things</h1>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"data-aos="fade-left"data-aos-duration="2000">
           <div class="input-group d-flex m-5">
             <input class="form-control p-2" type="text" placeholder="Email Address">
             <button type="button" class="btn btn-warning rounded-start-0">Get Started</button>
@@ -185,27 +187,89 @@
       </div>
     </div>
     <div class="container">
-      <div class="border border-end-0 border-light-2"></div>
+      <div class="border border-end-0 border-light-2 mb-4"></div>
       <div class="row">
         <div class="col-md-6">
           <div class="text">
-            <h1 class="text-white pt-5 pb-2">Subhan</h1>
-            <p class="text-white pb-2">
+            <a class="text-white" href="#Header"><img class="img-fluid"
+              src="./assets/IMG/logo.png" width="100px" alt=""></a>
+            <p class="text-white mt-5 pb-2">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Ipsum, possimus dignissimos. Velit,
               mollitia
               accusamus.
             </p>
-            <h3 class="text-white">Join Newsletter</h3>
-            <input class="p-2" type="email" placeholder="Email Address">
+            <h3 class="text-white p-1">Join Newsletter</h3>
+            <input class="rounded-pill ps-5 p-3 mb-2 bg-dark border-0" type="email" placeholder="Your Email Address">
+            <br>
+            <a href="#"><button class="btn btn-warning text-white rounded-pill"
+                style="padding-left: 85px; padding-right: 85px;">Subscribe</button></a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div>
+            <h5 class="mt-4 text-white fs-3">Pages</h5>
+            <p class="mt-5"><a class="text-decoration-none text-white" href="#Header">Home</a></p>
+            <p class="mt-3"><a class="text-decoration-none text-white" href="#About">About Me</a></p>
+            <p class="mt-3"><a class="text-decoration-none text-white" href="#Services">MY Services</a></p>
+            <p class="mt-3"><a class="text-decoration-none text-white" href="#">My Portfolio</a></p>
+            <p class="mt-3"><a class="text-decoration-none text-white" href="#">Contact Me</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div>
+            <h5 class="mt-4 text-white fs-3">Quick Links</h5>
+            <p class="mt-5"><a class="text-decoration-none text-white" href="#">Privacy Policy</a></p>
+            <p class="mt-3"><a class="text-decoration-none text-white" href="#">Term of services</a></p>
+            <p class="mt-3"><a class="text-decoration-none text-white" href="#">Credits</a></p>
+            <p class="mt-3"><a class="text-decoration-none text-white" href="#">FAQ</a></p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div>
+            <h5 class="mt-4 text-white fs-3">Follow Me</h5>
+            <p class="mt-5"><a class="text-decoration-none text-white" href="#">Lorem ipsum dolor sit amet consec
+                adipisict elit. Ab.</a></p>
+            <div class="mt-3">
+              <a class="pe-4 fs-3 text-white text-decoration-none" href="#"><i class="ri-linkedin-box-fill"></i></a>
+              <a class="fs-3 text-white text-decoration-none" href="#"><i class="ri-github-fill"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
+    </div>
+    <div class="container">
+      <div class="border border-end-0 border-light-2 mt-5"></div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="text">
+            <h5 class="text-white mt-4">My Email</h5>
+            <p class="text-warning">Sahmad@azattractivestore.com</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text">
+            <h5 class="text-white mt-4">My Phone</h5>
+            <p class="text-warning">+92 309-0843056</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text">
+            <h5 class="text-white mt-4 text-center">Created by: Subhan</h5>
+          </div>
+        </div>
+      </div>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

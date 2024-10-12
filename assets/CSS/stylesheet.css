@@ -6,15 +6,19 @@
 .nav-link {
     padding-left: 60px !important;
 }
-#header{
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+
+#Header {
+    background-image: linear-gradient(to right, #517fa4 100%,  #243949 0%);
 }
-#services{
+
+#Services {
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
-#ABOUT{
+
+#About {
     background-color: rgb(19, 15, 15);
 }
-#footer{
+
+#Footer {
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
