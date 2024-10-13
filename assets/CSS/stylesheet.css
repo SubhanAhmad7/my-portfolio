@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 .nav-link {
-    padding-left: 60px !important;
+    padding-left: 30px !important;
 }
 
 #Header {
-    background-image: linear-gradient(to right, #517fa4 100%,  #243949 0%);
+    background-image: linear-gradient(to right, #517fa4 100%,  #243949 0%)!important;
 }
 
 #Services {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-color: rgb(24, 30, 34);
 }
 
 #About {
@@ -21,4 +21,10 @@
 
 #Footer {
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+#Experience{
+    background-color: rgb(24, 30, 34);
+}
+#Project{
+    background-color: rgb(19, 15, 15);
 }
