@@ -9,6 +9,7 @@
 
 #Header {
     background-image: linear-gradient(to right, #517fa4 100%,  #243949 0%)!important;
+    padding-top: 50px;
 }
 
 #Services {
@@ -27,4 +28,7 @@
 }
 #Project{
     background-color: rgb(19, 15, 15);
+}
+.navbar{
+    background-image: linear-gradient(to right, #517fa4 100%,  #243949 0%)!important;
 }
